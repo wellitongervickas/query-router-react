@@ -8,6 +8,7 @@ import {
 import isValidSearch from "components/Routes/QueryRoute/isValidSearch";
 import { FC } from "react";
 
+/** co: https://github.com/luigidomingues **/
 const QueryRoute: FC<Route> = ({ component: Component, ...rest }) => {
   const location = useLocation();
   const match = useRouteMatch();
